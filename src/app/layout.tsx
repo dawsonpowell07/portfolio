@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import {ThemeProvider} from "@/components/ThemeProvider"
+import { Analytics } from '@vercel/analytics/react';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class">
           <Navbar />
           <main className="mx-auto max-w-3xl px-3 py-10">{children}</main>
-          <Footer />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
