@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Image from "next/image";
 import { H1 } from "@/components/ui/H1";
-import me from "@/assets/me.JPG";
+import me from "@/assets/me.png";
 import { H2 } from "@/components/ui/H2";
 import { Bot } from "lucide-react";
 

@@ -41,13 +41,11 @@ export async function POST(req: Request) {
       modelName: "gpt-3.5-turbo",
       streaming: true,
       callbacks: [handlers],
-      verbose: true,
       cache,
     });
 
     const rephrasingModel = new ChatOpenAI({
       modelName: "gpt-3.5-turbo",
-      verbose: true,
       cache,
     });
 
