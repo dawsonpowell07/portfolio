@@ -75,7 +75,7 @@ export default function Page() {
           alt="picture of me with friends"
           height={300}
           width={300}
-          className="mt-3 w-full border-2 object-cover shadow-md dark:border-foreground"
+          className="mt-3 w-full  rounded border-2 object-cover shadow-md dark:border-foreground"
         />
         <hr className="border-muted" />
       </section>

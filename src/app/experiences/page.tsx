@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import capitalOne from "@/assets/logos/c1.jpeg";
 import codepath from "@/assets/logos/codepath.jpeg";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Projects and Experience",
@@ -35,10 +36,10 @@ export default function Page() {
             <span className="font-bold">
               Capital One&apos;s Technology Early Internship Program
             </span>
-            , which is specifically for freshman and sophomore students.
-            During the 10-week program, the first five weeks are spent learning
-            best practices and various technologies used at Capital One, such as
-            Go, Swift, React, AWS, and databases. I also get hands-on experience
+            , which is specifically for freshman and sophomore students. During
+            the 10-week program, the first five weeks are spent learning best
+            practices and various technologies used at Capital One, such as Go,
+            Swift, React, AWS, and databases. I also get hands-on experience
             with Git, APIs, and full-stack development.
           </li>
           <li>
@@ -102,6 +103,16 @@ export default function Page() {
             <p>
               <strong>Technologies Used:</strong> Python, Flask, Spotify API
             </p>
+            <div className="display: flex; align-items: center;">
+              <a
+                href="https://drive.google.com/file/d/1sSnvuQxrMQYXYAmk_7pkwZOpcgdD2-Bu/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="py-3 text-primary hover:underline"
+              >
+                Project Demo
+              </a>
+            </div>
             <p>
               The CollectiveGroove project focused on creating a Spotify
               playlist with songs given by users through TikTok comments. By
