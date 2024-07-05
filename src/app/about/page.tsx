@@ -23,8 +23,7 @@ export default function Page() {
         </div>
         <p>
           My name is Dawson Powell I am currently a college student who is
-          passionate about technology! I have been developing my skills since my
-          senior year of high school and have had lots of fun learning all kinds
+          passionate about technology! I have been developing my skills since high school and have had lots of fun learning all kinds
           of stuff.
         </p>
         <hr className="border-muted" />
