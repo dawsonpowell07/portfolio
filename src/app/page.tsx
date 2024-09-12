@@ -30,12 +30,9 @@ export default function Home() {
         </div>
       </section>
       <section className="space-y-3 text-center">
-        <H2>Ask the chatbout anything about me</H2>
+        <H2>Feel Free To Exlore My Website</H2>
         <p>
-          Click the little <Bot className="inline pb-1" /> icon in the top bar
-          to activate the AI chat. You can ask the chatbot any question about me
-          and it will find the relevant info on this website. The bot can even
-          provide links to pages you&apos;re looking for.
+          Look around and learn more about my experiences, education, hobbies, and more!
         </p>
       </section>
     </section>

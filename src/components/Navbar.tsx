@@ -13,10 +13,10 @@ export default function Navbar() {
           <Link href="/socials">socials</Link>
 
         </nav>
-        <div className="flex items-center gap-4">
+        {/* <div className="flex items-center gap-4">
           <AIChatButton />
           <ThemeToggle />
-        </div>
+        </div> */}
       </div>
     </header>
   );

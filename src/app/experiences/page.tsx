@@ -39,14 +39,17 @@ export default function Page() {
             , which is specifically for freshman and sophomore students. During
             the 10-week program, the first five weeks are spent learning best
             practices and various technologies used at Capital One, such as Go,
-            Swift, React, AWS, and databases. I also get hands-on experience
+            Swift, React, AWS, and databases. I also got hands-on experience
             with Git, APIs, and full-stack development.
           </li>
           <li>
-            My remaining five weeks will be spent working with multiple other
-            interns. I cannot speak much about this right now, but we will
-            utilize <span className="font-bold">Python and AWS</span> to build
-            something that will be rolled out to the entire company!
+            My remaining five weeks was spent working with multiple other
+            interns. We developed some internal autmoation that help standardize
+            Jira Practice across engineers. We utilized{" "}
+            <span className="font-bold">Python</span> and{" "}
+            <span className="font-bold">AWS</span> to do this. During my short
+            period there helped fix <span className="font-bold">1000+</span>{" "}
+            issues regarding Jira Tickets.
           </li>
         </ul>
         <hr className="border-muted" />
@@ -130,20 +133,18 @@ export default function Page() {
         <hr className="border-muted" />
       </section>
       <section className="space-y-3">
-        <H2>DistractionDefender</H2>
+        <H2>EcoRide - Capital One Intern Hackathon</H2>
         <p>
-          <strong>Technologies Used:</strong> React, HTML, JavaScript, CSS
+          <strong>Technologies Used:</strong> Typescript, Python, Next.js,
+          Python, Tailwind
         </p>
         <p>
-          The DistractionDefender project involved developing and deploying a
-          powerful Chrome extension designed to boost productivity during study
-          sessions by blocking popular social media sites. Lightweight and
-          efficient, DistractionDefender is optimized for performance and
-          consumes minimal system resources, ensuring it won&apos;t slow
-          browsing or interfere with other extensions. The extension
-          successfully reduced time spent on social media platforms by users by
-          an average of 30%, contributing to enhanced focus and productivity
-          during study sessions.
+          EcoRide is a carpooling platform designed to promote sustainable
+          transportation among college students. Collaborating with a team of
+          five, I developed a full-stack application utilizing Flask and
+          Next.js, enabling real-time user interactions. This project aimed to
+          reduce the carbon footprint on campus while offering a convenient and
+          eco-friendly transportation alternative for students.
         </p>
       </section>
     </section>
