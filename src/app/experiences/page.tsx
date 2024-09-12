@@ -45,7 +45,7 @@ export default function Page() {
           <li>
             My remaining five weeks was spent working with multiple other
             interns. We developed some internal autmoation that help standardize
-            Jira Practice across engineers. We utilized{" "}
+            Jira Practices across different teams. We utilized{" "}
             <span className="font-bold">Python</span> and{" "}
             <span className="font-bold">AWS</span> to do this. During my short
             period there helped fix <span className="font-bold">1000+</span>{" "}
@@ -123,10 +123,7 @@ export default function Page() {
               playlist enrichment process that successfully adds songs to a
               specified playlist. The user experience was enhanced with OAuth2
               authentication, ensuring secure and uninterrupted access to
-              Spotify&apos;s API resources. Additionally, a robust error
-              handling system was developed to minimize disruptions, achieving a
-              99% success rate for adding songs, even in cases of search query
-              mismatches or API limitations.
+              Spotify&apos;s API resources.
             </p>
           </section>
         </ul>
